@@ -4,4 +4,8 @@
 4-odejmij
 5-pomnóż
 6-podziel
+<<<<<<< HEAD
 more added later.
+=======
+.
+>>>>>>> xanddiv
