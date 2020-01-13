@@ -17,6 +17,9 @@ int main ()
 		case 3:
 		adding();
 		break;
+		case 4:
+		subtraction();
+		break;
 	}
 	return 0;
 
