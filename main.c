@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "add.c"
 int main ()
 {
 	int i=0;
@@ -13,6 +13,9 @@ int main ()
 		break;
 		case 2:i--;
 		printf("%d",i);
+		break;
+		case 3:
+		adding();
 		break;
 	}
 	return 0;
