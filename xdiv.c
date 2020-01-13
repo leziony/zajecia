@@ -11,8 +11,21 @@ for (i=0;i<n;i++)
 	scanf("%d",&x[i]);
 	sum=sum*x[i];
 	printf("continue? \n 1 to stop. \n");
-	scanf ("%d",&b)
+	scanf ("%d",&b);
 	if (b==1) break;
 }
 printf("%d",sum);
+}
+void divi()
+{
+int n;
+scanf ("%d",&n);
+int b;
+scanf ("%d",&b);
+int div;
+if (n>b)
+div=n/b;
+else
+div=b/n;
+printf("%d",div);
 }
